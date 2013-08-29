@@ -4,6 +4,6 @@
   "description": "Example use of the closure-util package",
   "license": "MIT",
   "dependencies": {
-    "closure-util": "0.4.0"
+    "closure-util": "0.4.1"
   }
 }
