@@ -42,7 +42,11 @@ var options = {
   compilation_level: 'ADVANCED_OPTIMIZATIONS',
   jscomp_error: errors,
   generate_exports: true,
-  externs: ['lib/externs']
+  externs: [
+    'lib/externs/math/addition.externs.js',
+    'lib/externs/math/subtraction.externs.js',
+    'lib/externs/browser.js'
+  ]
 };
 
 function handleResult(err, result) {
